@@ -1,0 +1,92 @@
+<!-- Navbar -->
+<!-- Remove "fixed-top" class to make navigation bar scrollable with the page -->
+
+<header class="header navbar navbar-expand-lg bg-light  shadow-sm navbar-sticky"">
+  <div class="container">
+    <a href="{{site.baseurl}}/" class="navbar-brand">
+      <img src="{{site.baseurl}}/assets/img/logo.svg" alt="Arrow Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse1" aria-expanded="false">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <nav id="navbarCollapse1" class="collapse navbar-collapse">
+      <hr class="d-lg-none mt-3 mb-2">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Why Arrow</a>
+          <ul class="dropdown-menu">
+            {% for why-arrow in site.pages %}
+            {% if why-arrow.category == 'why-arrow' %}
+            <li>
+              <a href="{{site.baseurl}}{{why-arrow.url}}" class="dropdown-item fade-page">
+                {{ why-arrow.title }}
+              </a>
+            </li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Sales Team Evaluations</a>
+          <ul class="dropdown-menu">
+            {% for sales-training in site.pages %}
+            {% if sales-training.category == 'sales-training' %}
+            <li>
+              <a href="{{site.baseurl}}{{sales-training.url}}" class="dropdown-item fade-page">
+                {{ sales-training.title }}
+              </a>
+            </li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Sales Recruitment</a>
+          <ul class="dropdown-menu">
+            {% for sales-recruitment in site.pages %}
+            {% if sales-recruitment.category == 'sales-recruitment' %}
+            <li>
+              <a href="{{site.baseurl}}{{sales-recruitment.url}}" class="dropdown-item fade-page">
+                {{ sales-recruitment.title }}
+              </a>
+            </li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">CRM</a>
+          <ul class="dropdown-menu">
+            {% for crm in site.pages %}
+            {% if crm.category == 'crm' %}
+            <li>
+              <a href="{{site.baseurl}}{{crm.url}}" class="dropdown-item fade-page">
+                {{ crm.title }}
+              </a>
+            </li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Resources</a>
+          <ul class="dropdown-menu">
+            {% for resources in site.pages %}
+            {% if resources.category == 'resources' %}
+            <li>
+              <a href="{{site.baseurl}}{{resources.url}}" class="dropdown-item fade-page">
+                {{ resources.title }}
+              </a>
+            </li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+        </li>
+      </ul>
+      <a href="#" class="btn btn-primary btn-sm fs-sm rounded my-3 my-lg-0">
+        <i class="bx bx-envelope fs-lg me-2"></i>
+        Contact
+      </a>
+    </nav>
+  </div>
+</header>

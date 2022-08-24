@@ -1,0 +1,88 @@
+// Prefix for :root CSS variables
+
+$prefix:                      si- !default;
+
+
+//== Colors
+//
+// Gray and brand colors to use across the Theme.
+
+// Grayscale
+$white:                       #fff !default;
+$gray-100:                    #eefafa !default;
+$gray-200:                    #f3f3f3 !default;
+$gray-300:                    #e9eaec !default;
+$gray-400:                    #e3e4e8 !default;
+$gray-500:                    #c3c3c5 !default;
+$gray-600:                    #aaaaac !default;
+$gray-700:                    #707171 !default;
+$gray-800:                    #4a4a4a !default;
+$gray-900:                    #16254C !default;
+$black:                       #000 !default;
+
+// Theme colors
+$primary:                     #02c1ae !default;
+$secondary:                   $gray-200 !default;
+$info:		                  #4c82f7 !default;
+$success:                     #22c55e !default;
+$warning:                     #ffba08 !default;
+$danger:                      #ef4444 !default;
+$light:                       $white !default;
+$dark:                        #16254C !default;
+.bg-dark {
+    background-color: red;
+}
+
+
+
+// Bootstrap's $theme-colors map
+$theme-colors: (
+  'primary':    $primary,
+  'secondary':  $secondary,
+  'success':    $success,
+  'info':       $info,
+  'warning':    $warning,
+  'danger':     $danger,
+  'light':      $light,
+  'dark':       $dark
+  
+) !default;
+
+// Faded colors map
+$theme-faded-colors: (
+  'primary':    rgba($primary, .12),
+  'success':    rgba($success, .12),
+  'info':       rgba($info, .12),
+  'warning':    rgba($warning, .12),
+  'danger':     rgba($danger, .12),
+  'light':      rgba($light, .05),
+  'dark':       rgba($dark, .12)
+) !default;
+
+// Gradients map
+$theme-gradients: (
+  'primary':              linear-gradient(90deg, $primary 0%, #03DAC6 50%, #16254C 100%),
+  'primary-translucent':  linear-gradient(180deg, rgba($primary, 0) 0%, rgba($primary, .6) 120%),
+  'dark-translucent':     linear-gradient(180deg, rgba($dark, .58) 0%, rgba($dark, .78) 100%)
+) !default;
+
+
+// User selection color
+$user-selection-color:        rgba(var(--#{$prefix}primary-rgb), .22) !default;
+
+
+// Options
+//
+// Modifying Bootstrap global options
+
+$enable-shadows:              true !default;
+$enable-negative-margins:     true !default;
+$enable-smooth-scroll:        false !default;
+$enable-dark-mode:            true !default;
+
+
+// Spacing
+
+$spacer:                      1rem !default;
+
+$headings-color:                            $dark !default;
