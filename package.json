@@ -4,10 +4,8 @@
   "description": "Bootstrap 5 Template with Jekyll",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "jekyll build && gulp",
-    "serve": "bundle exec jekyll serve && gulp"
-    
+    "build": "jekyll build && gulp build",
+    "serve": "bundle exec jekyll serve && gulp"  
   },
   "author": "",
   "license": "ISC",

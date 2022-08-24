@@ -151,4 +151,8 @@ gulp.task(
   'default',
   gulp.series('clean', 'vendor', gulp.parallel('js', 'sass:minified', 'sass:expanded'), 'watch')
 );
+gulp.task(
+  'build',
+  gulp.series('clean', 'vendor', gulp.parallel('js', 'sass:minified', 'sass:expanded'),)
+);
 
