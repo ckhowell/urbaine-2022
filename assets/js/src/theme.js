@@ -7,7 +7,6 @@
  * @version 1.2.0
 */
 
-import themeModeSwitch from './components/theme-mode-switch';
 import stickyNavbar from './components/sticky-navbar';
 import smoothScroll from './components/smooth-scroll';
 import scrollTopButton from './components/scroll-top-button';
@@ -27,4 +26,3 @@ import priceSwitch from './components/price-switch';
 import masonryGrid from './components/masonry-grid';
 import subscriptionForm from './components/subscription-form';
 import hoverAnimation from './components/hover-animation';
-import audioPlayer from './components/audio-player';
