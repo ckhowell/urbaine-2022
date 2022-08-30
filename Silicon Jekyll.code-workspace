@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../Bootstrap Themes/Silicon"
 		}
 	],
 	"settings": {}

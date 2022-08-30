@@ -13,12 +13,16 @@
     margin-bottom: 30px;
   }
 }
+.svg-image {
+  background-image: url("{{site.baseurl}}/assets/img/hero-bg.svg");
+}
+
 .bg-dark {
   background-color: red;
 }
 
 .text-gradient-primary {
-  background: linear-gradient(to right, #02c1ae, #8B5CF6, #D946EF);
+  background: linear-gradient(to right, #02c1ae, #02c1ae, #16254C);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -3672,7 +3676,7 @@ textarea.form-control-lg {
   --si-navbar-disabled-color: #aaaaac;
   --si-navbar-active-color: #02c1ae;
   --si-navbar-brand-padding-y: 0.5rem;
-  --si-navbar-brand-margin-end: 1rem;
+  --si-navbar-brand-margin-end: 1.5rem;
   --si-navbar-brand-font-size: 1.375rem;
   --si-navbar-brand-color: #16254C;
   --si-navbar-brand-hover-color: #16254C;

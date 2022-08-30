@@ -9,6 +9,26 @@
         margin-top: 30px;
         margin-bottom: 30px;
     }
+    .page-icon {
+        display: none;
+    }
 }
+
+.svg-image {
+background-image: url(../img/hero-bg.svg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.navbar-brand {
+    margin-right: 2em !important;
+}
+.display-2 {
+    line-height: 1 !important;
+}
+.lead {
+    font-size: 1.35em !important;
+}
+
 
 

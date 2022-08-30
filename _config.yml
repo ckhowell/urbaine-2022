@@ -34,3 +34,4 @@ exclude:
   - gulpfile.js
   - assets/scss
   - vendor
+  – _production

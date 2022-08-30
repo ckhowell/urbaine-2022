@@ -363,7 +363,7 @@ $utilities: map-merge(
 // Gradient text
 
 .text-gradient-primary {
-  background: linear-gradient(to right, $primary, #8B5CF6, #D946EF);
+  background: linear-gradient(to right, $primary, #06ffd5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
