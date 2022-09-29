@@ -9,7 +9,7 @@
       <div class="fs-sm border-end pe-3 me-3 mb-2">{{ page.date | date: "%a, %b %d, 20%y" }}</div>
     </div>
     <div class="d-flex align-items-center position-relative ps-md-3 pe-lg-5 mb-2">
-      <img src="{{site.baseurl}}/{{page.avatar}}" class="rounded-circle" width="60" alt="Avatar" />
+      <img src="{{site.url}}/{{page.avatar}}" class="rounded-circle" width="60" alt="Avatar" />
       <div class="ps-3">
         <h6 class="mb-1">Author</h6>
         <a href="#" class="fw-semibold stretched-link">{{page.author}}</a>
@@ -34,13 +34,13 @@
         <span class="d-block mb-3">5 min read</span>
         <h6>Share this post:</h6>
         <div class="mb-4 pb-lg-3">
-          <a href="https://www.linkedin.com/sharing/share-offsite/?url={{site.baseurl}}/{{page.url}}" class="btn btn-icon btn-secondary btn-linkedin me-2 mb-2">
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url={{site.url}}{{page.url}}" class="btn btn-icon btn-secondary btn-linkedin me-2 mb-2">
             <i class="bx bxl-linkedin"></i>
           </a>
-          <a href="https://facebook.com/sharer.php?u={{site.baseurl}}/{{page.url}}&quoute{{page.title}}" class="btn btn-icon btn-secondary btn-facebook me-2 mb-2">
+          <a href="https://facebook.com/sharer.php?u={{site.url}}{{page.url}}&quoute{{page.title}}" class="btn btn-icon btn-secondary btn-facebook me-2 mb-2">
             <i class="bx bxl-facebook"></i>
           </a>
-          <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{site.baseurl}}/{{page.url}}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" class="btn btn-icon btn-secondary btn-twitter me-2 mb-2">
+          <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{site.url}}{{page.url}}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" class="btn btn-icon btn-secondary btn-twitter me-2 mb-2">
             <i class="bx bxl-twitter"></i>
           </a>
         </div>
