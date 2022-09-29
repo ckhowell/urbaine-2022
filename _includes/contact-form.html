@@ -52,17 +52,22 @@
             </div>
             <div class="mb-4">
               <label for="name" class="form-label fs-base">Full name</label>
-              <input type="text" id="name" class="form-control form-control-lg" required="">
+              <input type="text" id="name" name="FullName"  class="form-control form-control-lg" required="">
               <div class="invalid-feedback">Please enter your name!</div>
             </div>
             <div class="mb-4">
               <label for="email" class="form-label fs-base">Email address</label>
-              <input type="email" id="email" class="form-control form-control-lg" required="">
+              <input type="email" name="email" id="email" class="form-control form-control-lg" required="">
               <div class="invalid-feedback">Please provide a valid email address!</div>
+            </div>
+            <div class="mb-4">
+              <label for="phone" class="form-label fs-base">Phone</label>
+              <input type="telephone" name="Phone" id="phone" class="form-control form-control-lg" required="">
+              <div class="invalid-feedback">Please provide a valid phone number!</div>
             </div>
             <div class="mb-4 pb-2">
               <label for="message" class="form-label fs-base">Message</label>
-              <textarea id="message" class="form-control form-control-lg" rows="3" placeholder="Tell us about how we can help you" required=""></textarea>
+              <textarea name="yourMessage"  id="message" class="form-control form-control-lg" rows="3" placeholder="Tell us about how we can help you" required=""></textarea>
               <div class="invalid-feedback">Please enter you message!</div>
             </div>
             <button type="submit" class="btn btn-primary shadow-primary btn-lg">Send request</button>

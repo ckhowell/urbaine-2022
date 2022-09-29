@@ -78,11 +78,16 @@
                 {{ resources.title }}
               </a>
             </li>
+            <li>
+              <a href="https://arrowexec.talentlms.com" target="_blank" class="dropdown-item fade-page">
+                E-course
+              </a>
+            </li>
             {% endif %}
             {% endfor %}
           </ul>
         </li>
-        <li class="nav-item dropdown">
+        <!-- <li class="nav-item dropdown">
           <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Case Studies</a>
           <ul class="dropdown-menu">
             {% for studies in site.pages %}
@@ -95,9 +100,9 @@
             {% endif %}
             {% endfor %}
           </ul>
-        </li>
+        </li> -->
       </ul>
-      <a href="#" class="btn btn-primary btn-sm fs-sm rounded my-3 my-lg-0">
+      <a href="{{site.url}}/contact" class="btn btn-primary btn-sm fs-sm rounded my-3 my-lg-0">
         <i class="bx bx-envelope fs-lg me-2"></i>
         Contact
       </a>
