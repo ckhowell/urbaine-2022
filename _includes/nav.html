@@ -1,10 +1,10 @@
 <!-- Navbar -->
 <!-- Remove "fixed-top" class to make navigation bar scrollable with the page -->
 
-<header class="header navbar navbar-expand-lg  {{page.nav}} navbar-sticky"">
+<header class="header navbar navbar-expand-lg  position-absolute navbar-sticky  {{page.nav}}">
   <div class="container">
     <a href="{{site.baseurl}}/" class="navbar-brand">
-      <img src="{{site.baseurl}}/assets/img/logo.svg" alt="Arrow Logo">
+      <img src="{{site.baseurl}}/assets/img/{{page.logo}}" alt="Arrow Logo">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse1" aria-expanded="false">
       <span class="navbar-toggler-icon"></span>

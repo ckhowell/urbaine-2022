@@ -1,117 +1,145 @@
-// 
+//
 // user.scss
 // Use this to write your custom SCSS
 //
+
+.navbar-transparent{
+  background-color: transparent !important;
+}
+
+
 @media (max-width: 768px) {
-    .home-img {
-        width: 200px;
-        align-items: center;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-    .page-icon {
-        display: none;
-    }
+  .home-img {
+    width: 200px;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .page-icon {
+    display: none;
+  }
 }
 
 .svg-image {
-background-image: url(../img/hero-bg.svg);
-background-size: cover;
-background-repeat: no-repeat;
+  background-image: url(../img/hero-bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .navbar-brand {
-    margin-right: 2em !important;
+  margin-right: 2em !important;
 }
 .display-1 {
-    line-height: 1 !important;
+  line-height: 1 !important;
 }
 .display-2 {
-    line-height: 1 !important;
+  line-height: 1 !important;
 }
 .lead {
-    font-size: 1.35em !important;
+  font-size: 1.35em !important;
 }
 .vh-70 {
-    height: 80vh !important;
-  }
+  height: 80vh !important;
+}
 
+.section-rotate {
+  padding-bottom: 4rem;
+  overflow: hidden;
+  background: transparent;
+  position: relative;
+  z-index: 0;
+}
+.section-rotate .section-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+}
+
+@media (min-width: 992px) {
   .section-rotate {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    min-height: 880px;
+    padding-bottom: 8rem;
+  }
+  .section-rotate .section-inner {
+    background: inherit;
     overflow: hidden;
-    background: transparent;
+  }
+  .section-rotate .section-inner + .container {
     position: relative;
-    z-index: 0; }
-    .section-rotate .section-inner {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: -2; }
-  
-  @media (min-width: 992px) {
-    .section-rotate {
-      min-height: 880px;
-      padding-top: 8rem;
-      padding-bottom: 8rem; }
-      .section-rotate .section-inner {
-        background: inherit;
-        overflow: hidden; }
-        .section-rotate .section-inner + .container {
-          position: relative;
-          z-index: 0; }
-      .section-rotate .section-inner-bg {
-        position: absolute;
-        width: 100%;
-        height: 100%; } }
-  
-  @media (min-width: 1200px) {
-    .section-rotate {
-      padding-top: 8rem;
-      padding-bottom: 12rem; }
-      .section-rotate .section-inner {
-          top: -40%;
-          left: -1rem;
-          width: 130%;
-          height: 124%;
-          transform: rotate(-7deg);
-          border-bottom-left-radius: 3rem;
-      }
-        .section-rotate .section-inner + .container {
-          padding-left: 2rem; }
-      .section-rotate .container {
-        position: relative; } }
-  
-  @media only screen and (min-width: 2000px) {
-    .section-rotate .section-inner {
-      top: -40%;
-      left: -1rem;
-      width: 120%;
-      height: 118%; }
-    .section-rotate .container {
-      position: relative; } }
-  
-  .section-half-rounded {
-    padding-top: 7rem;
-    padding-bottom: 7rem;
-    overflow: hidden;
-    background: transparent;
+    z-index: 0;
+  }
+  .section-rotate .section-inner-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-rotate {
+    padding-top: 8rem;
+    padding-bottom: 12rem;
+  }
+  .section-rotate .section-inner {
+    top: -40%;
+    left: -1rem;
+    width: 130%;
+    height: 124%;
+    transform: rotate(-7deg);
+    border-bottom-left-radius: 3rem;
+  }
+  .section-rotate .section-inner + .container {
+    padding-left: 2rem;
+  }
+  .section-rotate .container {
     position: relative;
-    z-index: 0; }
-    .section-half-rounded .section-inner {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 70%;
-      height: 100%;
-      z-index: -2;
-      border-top-right-radius: 40px;
-      border-bottom-right-radius: 40px; }
-    @media (max-width: 991.98px) {
-      .section-half-rounded .section-inner {
-        width: 100%; } }
+  }
+}
 
+@media only screen and (min-width: 2000px) {
+  .section-rotate .section-inner {
+    top: -40%;
+    left: -1rem;
+    width: 120%;
+    height: 118%;
+  }
+  .section-rotate .container {
+    position: relative;
+  }
+}
 
+.section-half-rounded {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  overflow: hidden;
+  background: transparent;
+  position: relative;
+  z-index: 0;
+}
+.section-half-rounded .section-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100%;
+  z-index: -2;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+@media (max-width: 991.98px) {
+  .section-half-rounded .section-inner {
+    width: 100%;
+  }
+}
 
+.navbar-transparent{
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+.bg-gradient-dark {
+  background: linear-gradient(145deg, #14162a 16.81%, #001789) !important;
+}
