@@ -10,5 +10,10 @@
 			"path": "../Arrow"
 		}
 	],
-	"settings": {}
+	"settings": {},
+	"extensions": {
+		"recommendations": [
+			"sissel.shopify-liquid"
+		]
+	}
 }

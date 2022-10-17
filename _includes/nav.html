@@ -1,7 +1,7 @@
 <!-- Navbar -->
 <!-- Remove "fixed-top" class to make navigation bar scrollable with the page -->
 
-<header class="header navbar navbar-expand-lg {{page.nav}}  position-absolute navbar-sticky">
+<header class="header navbar navbar-expand-lg {{page.nav}} navbar-sticky">
   <div class="container px-3">
     <a href="{{site.baseurl}}/" class="navbar-brand pe-3">
       <img src="{{site.baseurl}}/assets/img/{{page.logo}}" alt="Arrow Logo">
@@ -88,7 +88,7 @@
               {% endfor %}
             </ul>
           </li>
-          <!-- <li class="nav-item dropdown">
+          <li class="nav-item dropdown">
           <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Case Studies</a>
           <ul class="dropdown-menu {{page.dropdown}}">
             {% for studies in site.pages %}
@@ -101,7 +101,7 @@
             {% endif %}
             {% endfor %}
           </ul>
-        </li> -->
+        </li>
         </ul>
       </div>
       <div class="offcanvas-header border-top border-light">
