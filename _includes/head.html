@@ -20,6 +20,7 @@
     <link rel="stylesheet" media="screen" href="{{site.baseurl}}/assets/vendor/boxicons/css/boxicons.min.css"/>
     <link rel="stylesheet" media="screen" href="{{site.baseurl}}/assets/vendor/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" media="screen" href="{{site.baseurl}}/assets/vendor/lightgallery/css/lightgallery-bundle.min.css">
+    <link rel="stylesheet" media="screen" href="https://unpkg.com/aos@2.3.1/dist/aos.css" >
 
     <!-- Main Theme Styles + Bootstrap-->
     <link rel="stylesheet" media="screen" href="{{site.baseurl}}/assets/css/theme.min.css">
@@ -102,6 +103,17 @@
         }
       }
     </style>
+
+    <!-- Theme mode -->
+    <script>
+      let mode = window.localStorage.getItem('mode'),
+          root = document.getElementsByTagName('html')[0];
+      if (mode !== null && mode === 'dark') {
+        root.classList.add('dark-mode');
+      } else {
+        root.classList.remove('dark-mode');
+      }
+    </script>
 
     <!-- Page loading scripts -->
     <script>

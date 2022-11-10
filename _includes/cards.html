@@ -1,0 +1,520 @@
+    <!-- Page container -->
+    <main class="docs-container pt-5">
+      <div class="container-fluid px-xxl-5 px-lg-4 pt-4 pt-lg-5 pb-2 pb-lg-4">
+        
+        <!-- Page title -->
+        <div class="d-sm-flex align-items-end justify-content-between ps-lg-2 ps-xxl-0 mt-2 mt-lg-0 pt-4 mb-n3">
+          <div class="me-4">
+            <h1 class="pb-1">Cards</h1>
+            <p class="text-muted fs-lg mb-2">Flexible and extensible content container.</p>
+          </div>
+        </div>
+
+
+        <!-- Alternative style -->
+        <section id="cards-alt" class="border-bottom py-5 ps-lg-2 ps-xxl-0">
+          <h2 class="h4">Card Basic Example</h2>
+          <div class="tab-content pt-1">
+            <div class="tab-pane fade show active" id="preview2" role="tabpanel">
+              <div class="d-sm-flex">
+                <div class="card border-0 shadow-sm mb-4 mb-sm-0 me-sm-4" style="max-width: 20rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text fs-sm">Some quick example text to build on the card title and make up the bulk of the card's content within card's body.</p><a class="btn btn-sm btn-primary" href="#">Go somewhere</a>
+                  </div>
+                </div>
+                <div class="card shadow-sm" style="max-width: 20rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text fs-sm">Some quick example text to build on the card title and make up the bulk of the card's content within card's body.</p><a class="btn btn-sm btn-primary" href="#">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="html2" role="tabpanel">
+              <pre class="line-numbers"><code class="lang-html">&lt;!-- Alternative card style: no border + shadow --&gt;
+&lt;div class=&quot;card border-0 shadow-sm&quot;&gt;
+  &lt;div class=&quot;card-body&quot;&gt;
+    &lt;h5 class=&quot;card-title&quot;&gt;Card title&lt;/h5&gt;
+    &lt;p class=&quot;card-text fs-sm&quot;&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;
+    &lt;a href=&quot;#&quot; class=&quot;btn btn-sm btn-primary&quot;&gt;Go somewhere&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Alternative card style: border + shadow --&gt;
+&lt;div class=&quot;card shadow-sm&quot;&gt;
+  &lt;div class=&quot;card-body&quot;&gt;
+    &lt;h5 class=&quot;card-title&quot;&gt;Card title&lt;/h5&gt;
+    &lt;p class=&quot;card-text fs-sm&quot;&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;
+    &lt;a href=&quot;#&quot; class=&quot;btn btn-sm btn-primary&quot;&gt;Go somewhere&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- Hover effect -->
+        <section id="cards-hover" class="border-bottom py-5 ps-lg-2 ps-xxl-0">
+          <h2 class="h4">Hover effects</h2>
+          <div class="tab-content pt-1">
+            <div class="tab-pane fade show active" id="preview3" role="tabpanel">
+              <div class="d-sm-flex mb-4">
+                <div class="card card-hover mb-4 mb-sm-0 me-sm-4" style="max-width: 20rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text fs-sm">Some quick example text to build on the card title and make up the bulk of the card's content within card's body.</p><a class="btn btn-sm btn-primary" href="#">Go somewhere</a>
+                  </div>
+                </div>
+                <div class="card border-0 shadow-sm card-hover" style="max-width: 20rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text fs-sm">Some quick example text to build on the card title and make up the bulk of the card's content within card's body.</p><a class="btn btn-sm btn-primary" href="#">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="d-sm-flex">
+                <div class="card border-0 shadow-sm card-hover card-hover-primary mb-4 mb-sm-0 me-sm-4" style="max-width: 20rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text fs-sm">Some quick example text to build on the card title and make up the bulk of the card's content within card's body.</p><a class="btn btn-sm btn-primary" href="#">Go somewhere</a>
+                  </div>
+                </div>
+                <div class="card border-primary card-hover" style="max-width: 20rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text fs-sm">Some quick example text to build on the card title and make up the bulk of the card's content within card's body.</p><a class="btn btn-sm btn-primary" href="#">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="html3" role="tabpanel">
+              <pre class="line-numbers"><code class="lang-html">&lt;!-- Default card hover effect --&gt;
+&lt;div class=&quot;card card-hover&quot;&gt;
+  &lt;div class=&quot;card-body&quot;&gt;
+    &lt;h5 class=&quot;card-title&quot;&gt;Card title&lt;/h5&gt;
+    &lt;p class=&quot;card-text fs-sm&quot;&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;
+    &lt;a href=&quot;#&quot; class=&quot;btn btn-sm btn-primary&quot;&gt;Go somewhere&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- No border + shadow card hover effect --&gt;
+&lt;div class=&quot;card border-0 shadow-sm card-hover&quot;&gt;
+  &lt;div class=&quot;card-body&quot;&gt;
+    &lt;h5 class=&quot;card-title&quot;&gt;Card title&lt;/h5&gt;
+    &lt;p class=&quot;card-text fs-sm&quot;&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;
+    &lt;a href=&quot;#&quot; class=&quot;btn btn-sm btn-primary&quot;&gt;Go somewhere&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Primary background on hover --&gt;
+&lt;div class=&quot;card border-0 shadow-sm card-hover card-hover-primary&quot;&gt;
+  &lt;div class=&quot;card-body&quot;&gt;
+    &lt;h5 class=&quot;card-title&quot;&gt;Card title&lt;/h5&gt;
+    &lt;p class=&quot;card-text fs-sm&quot;&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;
+    &lt;a href=&quot;#&quot; class=&quot;btn btn-sm btn-primary&quot;&gt;Go somewhere&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Primary shadow on hover --&gt;
+&lt;div class=&quot;card border-primary card-hover&quot;&gt;
+  &lt;div class=&quot;card-body&quot;&gt;
+    &lt;h5 class=&quot;card-title&quot;&gt;Card title&lt;/h5&gt;
+    &lt;p class=&quot;card-text fs-sm&quot;&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;
+    &lt;a href=&quot;#&quot; class=&quot;btn btn-sm btn-primary&quot;&gt;Go somewhere&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- Image top / bottom -->
+        <section id="cards-image-position" class="border-bottom py-5 ps-lg-2 ps-xxl-0">
+          <h2 class="h4">Image top / bottom</h2>
+          <div class="tab-content pt-1">
+            <div class="tab-pane fade show active" id="preview4" role="tabpanel">
+              <div class="d-sm-flex">
+                <div class="card mb-4 mb-sm-0 me-sm-4" style="max-width: 20rem;">
+                  <img class="card-img-top" src="../assets/img/landing/financial/services/01.jpg" alt="Card image">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text fs-sm">Some quick example text to build on the card title and make up the bulk of the card's content within card's body.</p><a class="btn btn-sm btn-primary" href="#">Go somewhere</a>
+                  </div>
+                </div>
+                <div class="card" style="max-width: 20rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text fs-sm">Some quick example text to build on the card title and make up the bulk of the card's content within card's body.</p><a class="btn btn-sm btn-primary" href="#">Go somewhere</a>
+                  </div>
+                  <img class="card-img-bottom" src="../assets/img/landing/financial/services/03.jpg" alt="Card image">
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="html4" role="tabpanel">
+              <pre class="line-numbers"><code class="lang-html">&lt;!-- Image on top --&gt;
+&lt;div class=&quot;card&quot;&gt;
+  &lt;img src=&quot;assets/img/landing/financial/services/01.jpg&quot; class=&quot;card-img-top&quot; alt=&quot;Card image&quot;&gt;
+  &lt;div class=&quot;card-body&quot;&gt;
+    &lt;h5 class=&quot;card-title&quot;&gt;Card title&lt;/h5&gt;
+    &lt;p class=&quot;card-text fs-sm&quot;&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;
+    &lt;a href=&quot;#&quot; class=&quot;btn btn-sm btn-primary&quot;&gt;Go somewhere&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Image on bottom --&gt;
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-body&quot;&gt;
+    &lt;h5 class=&quot;card-title&quot;&gt;Card title&lt;/h5&gt;
+    &lt;p class=&quot;card-text fs-sm&quot;&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;
+    &lt;a href=&quot;#&quot; class=&quot;btn btn-sm btn-primary&quot;&gt;Go somewhere&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;img src=&quot;assets/img/landing/financial/services/03.jpg&quot; class=&quot;card-img-bottom&quot; alt=&quot;Card image&quot;&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- Horizontal layout -->
+        <section id="cards-horizontal" class="border-bottom py-5 ps-lg-2 ps-xxl-0">
+          <h2 class="h4">Horizontal layout</h2>
+          <div class="tab-content pt-1">
+            <div class="tab-pane fade show active" id="preview5" role="tabpanel">
+              <div class="card overflow-hidden mb-4" style="max-width: 42rem;">
+                <div class="row g-0">
+                  <div class="col-sm-4 bg-repeat-0 bg-size-cover" style="background-image: url(../assets/img/team/01.jpg); min-height: 12rem;"></div>
+                  <div class="col-sm-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text fs-sm">Some quick example text to build on the card title and make up the bulk of the card's content within card's body.</p><a class="btn btn-sm btn-primary" href="#">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card overflow-hidden" style="max-width: 42rem;">
+                <div class="row g-0">
+                  <div class="col-sm-4 order-sm-2 bg-repeat-0 bg-size-cover" style="background-image: url(../assets/img/team/02.jpg); min-height: 12rem;"></div>
+                  <div class="col-sm-8 order-sm-1">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text fs-sm">Some quick example text to build on the card title and make up the bulk of the card's content within card's body.</p><a class="btn btn-sm btn-primary" href="#">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="html5" role="tabpanel">
+              <pre class="line-numbers"><code class="lang-html">&lt;!-- Horizontal card: Image on the left --&gt;
+&lt;div class=&quot;card overflow-hidden&quot;&gt;
+  &lt;div class=&quot;row g-0&quot;&gt;
+    &lt;div class=&quot;col-sm-4 bg-repeat-0 bg-size-cover&quot; style=&quot;background-image: url(assets/img/team/01.jpg); min-height: 12rem;&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;col-sm-8&quot;&gt;
+      &lt;div class=&quot;card-body&quot;&gt;
+        &lt;h5 class=&quot;card-title&quot;&gt;Card title&lt;/h5&gt;
+        &lt;p class=&quot;card-text fs-sm&quot;&gt;Some quick example text to build on the card title and make up the bulk of the card's content within card's body.&lt;/p&gt;
+        &lt;a class=&quot;btn btn-sm btn-primary&quot; href=&quot;#&quot;&gt;Go somewhere&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Horizontal card: Image on the right --&gt;
+&lt;div class=&quot;card overflow-hidden&quot;&gt;
+  &lt;div class=&quot;row g-0&quot;&gt;
+    &lt;div class=&quot;col-sm-4 order-sm-2 bg-repeat-0 bg-size-cover&quot; style=&quot;background-image: url(assets/img/team/02.jpg); min-height: 12rem;&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;col-sm-8 order-sm-1&quot;&gt;
+      &lt;div class=&quot;card-body&quot;&gt;
+        &lt;h5 class=&quot;card-title&quot;&gt;Card title&lt;/h5&gt;
+        &lt;p class=&quot;card-text fs-sm&quot;&gt;Some quick example text to build on the card title and make up the bulk of the card's content within card's body.&lt;/p&gt;
+        &lt;a class=&quot;btn btn-sm btn-primary&quot; href=&quot;#&quot;&gt;Go somewhere&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- Header and footer -->
+        <section id="cards-header-footer" class="border-bottom py-5 ps-lg-2 ps-xxl-0">
+          <h2 class="h4">Header and footer</h2>
+          <div class="tab-content pt-1">
+            <div class="tab-pane fade show active" id="preview6" role="tabpanel">
+              <div class="card text-center" style="max-width: 42rem;">
+                <div class="card-header">Featured</div>
+                <div class="card-body">
+                  <h4 class="card-title">Special title treatment</h4>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p><a class="btn btn-primary" href="#">Go somewhere</a>
+                </div>
+                <div class="card-footer fs-sm text-muted">3 days ago</div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="html6" role="tabpanel">
+              <pre class="line-numbers"><code class="lang-html">&lt;!-- Header and footer --&gt;
+&lt;div class=&quot;card text-center&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;Featured&lt;/div&gt;
+  &lt;div class=&quot;card-body&quot;&gt;
+    &lt;h4 class=&quot;card-title&quot;&gt;Special title treatment&lt;/h4&gt;
+    &lt;p class=&quot;card-text&quot;&gt;With supporting text below as a natural lead-in to additional content.&lt;/p&gt;
+    &lt;a href=&quot;#&quot; class=&quot;btn btn-primary&quot;&gt;Go somewhere&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card-footer fs-sm text-muted&quot;&gt;3 days ago&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- Text alignment -->
+        <section id="cards-text-alignment" class="border-bottom py-5 ps-lg-2 ps-xxl-0">
+          <h2 class="h4">Text alignment</h2>
+          <div class="tab-content pt-1">
+            <div class="tab-pane fade show active" id="preview7" role="tabpanel">
+              <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text fs-sm">With supporting text below as a natural lead-in to additional content.</p><a class="btn btn-sm btn-primary" href="#">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                  <div class="card text-center">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text fs-sm">With supporting text below as a natural lead-in to additional content.</p><a class="btn btn-sm btn-primary" href="#">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card text-end">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text fs-sm">With supporting text below as a natural lead-in to additional content.</p><a class="btn btn-sm btn-primary" href="#">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="html7" role="tabpanel">
+              <pre class="line-numbers"><code class="lang-html">&lt;!-- Left aligned (default) --&gt;
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-body&quot;&gt;
+    &lt;h5 class=&quot;card-title&quot;&gt;Card title&lt;/h5&gt;
+    &lt;p class=&quot;card-text fs-sm&quot;&gt;With supporting text below as a natural lead-in to additional content.&lt;/p&gt;
+    &lt;a href=&quot;#&quot; class=&quot;btn btn-sm btn-primary&quot;&gt;Go somewhere&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Center aligned --&gt;
+&lt;div class=&quot;card text-center&quot;&gt;
+  &lt;div class=&quot;card-body&quot;&gt;
+    &lt;h5 class=&quot;card-title&quot;&gt;Card title&lt;/h5&gt;
+    &lt;p class=&quot;card-text fs-sm&quot;&gt;With supporting text below as a natural lead-in to additional content.&lt;/p&gt;
+    &lt;a href=&quot;#&quot; class=&quot;btn btn-sm btn-primary&quot;&gt;Go somewhere&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Right aligned --&gt;
+&lt;div class=&quot;card text-end&quot;&gt;
+  &lt;div class=&quot;card-body&quot;&gt;
+    &lt;h5 class=&quot;card-title&quot;&gt;Card title&lt;/h5&gt;
+    &lt;p class=&quot;card-text fs-sm&quot;&gt;With supporting text below as a natural lead-in to additional content.&lt;/p&gt;
+    &lt;a href=&quot;#&quot; class=&quot;btn btn-sm btn-primary&quot;&gt;Go somewhere&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- Card styles: Solid background -->
+        <section id="cards-bg-solid" class="border-bottom py-5 ps-lg-2 ps-xxl-0">
+          <h2 class="h4">Card styles: Solid background</h2>
+          <div class="tab-content pt-1">
+            <div class="tab-pane fade show active" id="preview11" role="tabpanel">
+              <div class="row g-4" style="max-width: 58rem;">
+                <div class="col-sm-6">
+                  <div class="card text-white bg-primary">
+                    <div class="card-header border-light">Header</div>
+                    <div class="card-body">
+                      <h5 class="card-title text-white">Primary card title</h5>
+                      <p class="card-text fs-sm">Some quick example text to build on the card title and make up the bulk of the card's content within card's body.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="card bg-secondary">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                      <h5 class="card-title">Secondary card title</h5>
+                      <p class="card-text fs-sm">Some quick example text to build on the card title and make up the bulk of the card's content within card's body.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="html11" role="tabpanel">
+              <pre class="line-numbers"><code class="lang-html">&lt;!-- Primary card --&gt;
+&lt;div class=&quot;card text-white bg-primary&quot;&gt;
+  &lt;div class=&quot;card-header border-light&quot;&gt;Header&lt;/div&gt;
+  &lt;div class=&quot;card-body&quot;&gt;
+    &lt;h5 class=&quot;card-title text-white&quot;&gt;Primary card title&lt;/h5&gt;
+    &lt;p class=&quot;card-text fs-sm&quot;&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Secondary card --&gt;
+&lt;div class=&quot;card bg-secondary&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;Header&lt;/div&gt;
+  &lt;div class=&quot;card-body&quot;&gt;
+    &lt;h5 class=&quot;card-title&quot;&gt;Secondary card title&lt;/h5&gt;
+    &lt;p class=&quot;card-text fs-sm&quot;&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Success card --&gt;
+&lt;div class=&quot;card text-white bg-success&quot;&gt;
+  &lt;div class=&quot;card-header border-light&quot;&gt;Header&lt;/div&gt;
+  &lt;div class=&quot;card-body&quot;&gt;
+    &lt;h5 class=&quot;card-title text-white&quot;&gt;Success card title&lt;/h5&gt;
+    &lt;p class=&quot;card-text fs-sm&quot;&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Danger card --&gt;
+&lt;div class=&quot;card text-white bg-danger&quot;&gt;
+  &lt;div class=&quot;card-header border-light&quot;&gt;Header&lt;/div&gt;
+  &lt;div class=&quot;card-body&quot;&gt;
+    &lt;h5 class=&quot;card-title text-white&quot;&gt;Danger card title&lt;/h5&gt;
+    &lt;p class=&quot;card-text fs-sm&quot;&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Warning card --&gt;
+&lt;div class=&quot;card text-white bg-warning&quot;&gt;
+  &lt;div class=&quot;card-header border-light&quot;&gt;Header&lt;/div&gt;
+  &lt;div class=&quot;card-body&quot;&gt;
+    &lt;h5 class=&quot;card-title text-white&quot;&gt;Warning card title&lt;/h5&gt;
+    &lt;p class=&quot;card-text fs-sm&quot;&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Info card --&gt;
+&lt;div class=&quot;card text-white bg-info&quot;&gt;
+  &lt;div class=&quot;card-header border-light&quot;&gt;Header&lt;/div&gt;
+  &lt;div class=&quot;card-body&quot;&gt;
+    &lt;h5 class=&quot;card-title text-white&quot;&gt;Info card title&lt;/h5&gt;
+    &lt;p class=&quot;card-text fs-sm&quot;&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Dark card --&gt;
+&lt;div class=&quot;card text-white bg-dark&quot;&gt;
+  &lt;div class=&quot;card-header border-light&quot;&gt;Header&lt;/div&gt;
+  &lt;div class=&quot;card-body&quot;&gt;
+    &lt;h5 class=&quot;card-title text-white&quot;&gt;Dark card title&lt;/h5&gt;
+    &lt;p class=&quot;card-text fs-sm&quot;&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Gradient card --&gt;
+&lt;div class=&quot;card text-white bg-gradient-primary&quot;&gt;
+  &lt;div class=&quot;card-header border-light&quot;&gt;Header&lt;/div&gt;
+  &lt;div class=&quot;card-body&quot;&gt;
+    &lt;h5 class=&quot;card-title text-white&quot;&gt;Gradient card title&lt;/h5&gt;
+    &lt;p class=&quot;card-text fs-sm&quot;&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+          </div>
+        </section>
+
+
+
+        <!-- Card group -->
+        <section id="cards-group" class="py-5 ps-lg-2 ps-xxl-0">
+          <h2 class="h4">Card group</h2>
+          <div class="tab-content pt-1">
+            <div class="tab-pane fade show active" id="preview15" role="tabpanel">
+              <div class="card-group">
+                <div class="card">
+                  <img class="card-img-top" src="../assets/img/landing/financial/services/01.jpg" alt="Card image">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text fs-sm">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                  <div class="card-footer border-top-0 pt-0">
+                    <a class="btn btn-sm btn-primary" href="#">Go somewhere</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="../assets/img/landing/financial/services/02.jpg" alt="Card image">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text fs-sm">This card has supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                  <div class="card-footer border-top-0 pt-0">
+                    <a class="btn btn-sm btn-primary" href="#">Go somewhere</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="../assets/img/landing/financial/services/03.jpg" alt="Card image">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text fs-sm">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  </div>
+                  <div class="card-footer border-top-0 pt-0">
+                    <a class="btn btn-sm btn-primary" href="#">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="html15" role="tabpanel">
+              <pre class="line-numbers"><code class="lang-html">&lt;!-- Card group --&gt;
+&lt;div class=&quot;card-group&quot;&gt;
+
+  &lt;!-- Card --&gt;
+  &lt;div class=&quot;card&quot;&gt;
+    &lt;img class=&quot;card-img-top&quot; src=&quot;assets/img/landing/financial/services/01.jpg&quot; alt=&quot;Card image&quot;&gt;
+    &lt;div class=&quot;card-body&quot;&gt;
+      &lt;h5 class=&quot;card-title&quot;&gt;Card title&lt;/h5&gt;
+      &lt;p class=&quot;card-text fs-sm&quot;&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;card-footer border-top-0 pt-0&quot;&gt;
+      &lt;a class=&quot;btn btn-sm btn-primary&quot; href=&quot;#&quot;&gt;Go somewhere&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;!-- Card --&gt;
+  &lt;div class=&quot;card&quot;&gt;
+    &lt;img class=&quot;card-img-top&quot; src=&quot;assets/img/landing/financial/services/02.jpg&quot; alt=&quot;Card image&quot;&gt;
+    &lt;div class=&quot;card-body&quot;&gt;
+      &lt;h5 class=&quot;card-title&quot;&gt;Card title&lt;/h5&gt;
+      &lt;p class=&quot;card-text fs-sm&quot;&gt;This card has supporting text below as a natural lead-in to additional content.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;card-footer border-top-0 pt-0&quot;&gt;
+      &lt;a class=&quot;btn btn-sm btn-primary&quot; href=&quot;#&quot;&gt;Go somewhere&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;!-- Card --&gt;
+  &lt;div class=&quot;card&quot;&gt;
+    &lt;img class=&quot;card-img-top&quot; src=&quot;assets/img/landing/financial/services/03.jpg&quot; alt=&quot;Card image&quot;&gt;
+    &lt;div class=&quot;card-body&quot;&gt;
+      &lt;h5 class=&quot;card-title&quot;&gt;Card title&lt;/h5&gt;
+      &lt;p class=&quot;card-text fs-sm&quot;&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;card-footer border-top-0 pt-0&quot;&gt;
+      &lt;a class=&quot;btn btn-sm btn-primary&quot; href=&quot;#&quot;&gt;Go somewhere&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>

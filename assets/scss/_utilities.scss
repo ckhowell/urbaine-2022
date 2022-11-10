@@ -38,7 +38,8 @@ $utilities: map-merge(
           (
             'secondary': $gray-100,
             'dark':      $gray-900,
-            'black':     $black
+            'black':     $black,
+            'none':      transparent
           )
         )
       )
@@ -363,7 +364,7 @@ $utilities: map-merge(
 // Gradient text
 
 .text-gradient-primary {
-  background: linear-gradient(to right, $primary, #06ffd5);
+  background: linear-gradient(to right, $primary, #8B5CF6, #D946EF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

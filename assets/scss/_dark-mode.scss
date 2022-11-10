@@ -12,7 +12,6 @@
     --#{$prefix}body-bg: #{$body-dark-mode-bg};
     --#{$prefix}body-color: #{$body-dark-mode-color};
     --#{$prefix}secondary-bg: rgba(#{to-rgb($white)}, .04);
-    --#{$prefix}heading-color: #{$headings-dark-mode-color};
     --#{$prefix}heading-link-color: #{$nav-link-dark-mode-color};
     --#{$prefix}heading-link-hover-color: #{$nav-link-dark-mode-hover-color};
     --#{$prefix}nav-link-color: #{$nav-link-dark-mode-color};
@@ -104,7 +103,6 @@
     // Tables
 
     .table {
-      --#{$prefix}table-th-color: #{$headings-dark-mode-color};
       --#{$prefix}table-striped-bg: rgba(#{to-rgb($white)}, #{$table-striped-bg-factor});
       --#{$prefix}table-hover-bg: rgba(#{to-rgb($white)}, #{$table-hover-bg-factor});
       --#{$prefix}table-hover-color: #{$table-hover-color};

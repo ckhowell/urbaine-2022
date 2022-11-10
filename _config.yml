@@ -1,9 +1,9 @@
-title: Arrow Executive Sales
-email: "hello@arrowexec.com.au"
-phone: "0435 049 140"
-description: 
+title: Urbaine Public Relations & Corporate Communication Consulting
+email: "hello@urbaine.au"
+phone: "0418 748 892 or 0420 696 937"
+description: "Urbaine is the property industry's specialist communication. We understand what it takes to bring a development's vision to life. consultancy."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://arrowexecsales.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://urbaine.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 # Permalinks
@@ -31,7 +31,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - css
   - gulpfile.js
   - assets/scss
   - vendor
+  - css

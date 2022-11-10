@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Bootstrap Themes/Silicon"
+		}
+	],
+	"settings": {},
+	"extensions": {
+		"recommendations": [
+			"sissel.shopify-liquid"
+		]
+	}
+}

@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "build": "jekyll build && gulp build",
-    "serve": "bundle exec jekyll serve && gulp"  
+    "serve": "bundle exec jekyll serve && gulp"
   },
   "author": "",
   "license": "ISC",
@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "@lottiefiles/lottie-player": "^1.5.7",
+    "aos": "^2.3.4",
     "bootstrap": "^5.2.0-beta1",
     "boxicons": "^2.1.2",
     "cleave.js": "^1.6.0",
@@ -35,6 +36,7 @@
     "img-comparison-slider": "^7.6.0",
     "jarallax": "^2.0.3",
     "lightgallery": "^2.4.0",
+    "magicmouse.js": "^1.2.1",
     "nouislider": "^15.6.0",
     "parallax-js": "^3.1.0",
     "prismjs": "^1.28.0",
