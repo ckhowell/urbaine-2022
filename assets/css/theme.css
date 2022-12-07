@@ -65,7 +65,7 @@
   --si-gray-800: #33354d;
   --si-gray-900: #151515;
   --si-primary: #f5c19e;
-  --si-secondary: red;
+  --si-secondary: #f5c19e;
   --si-success: #22c55e;
   --si-info: #4c82f7;
   --si-warning: #ffba08;
@@ -73,7 +73,7 @@
   --si-light: #fff;
   --si-dark: #151515;
   --si-primary-rgb: 245, 193, 158;
-  --si-secondary-rgb: 255, 0, 0;
+  --si-secondary-rgb: 245, 193, 158;
   --si-success-rgb: 34, 197, 94;
   --si-info-rgb: 76, 130, 247;
   --si-warning-rgb: 255, 186, 8;
@@ -2824,19 +2824,19 @@ textarea.form-control-lg {
 
 .btn-secondary {
   --si-btn-color: #000;
-  --si-btn-bg: red;
-  --si-btn-border-color: red;
+  --si-btn-bg: #f5c19e;
+  --si-btn-border-color: #f5c19e;
   --si-btn-hover-color: #000;
-  --si-btn-hover-bg: #ff2626;
-  --si-btn-hover-border-color: #ff1a1a;
-  --si-btn-focus-shadow-rgb: 217, 0, 0;
+  --si-btn-hover-bg: #f7caad;
+  --si-btn-hover-border-color: #f6c7a8;
+  --si-btn-focus-shadow-rgb: 208, 164, 134;
   --si-btn-active-color: #000;
-  --si-btn-active-bg: #ff3333;
-  --si-btn-active-border-color: #ff1a1a;
+  --si-btn-active-bg: #f7cdb1;
+  --si-btn-active-border-color: #f6c7a8;
   --si-btn-active-shadow: unset;
   --si-btn-disabled-color: #000;
-  --si-btn-disabled-bg: red;
-  --si-btn-disabled-border-color: red;
+  --si-btn-disabled-bg: #f5c19e;
+  --si-btn-disabled-border-color: #f5c19e;
 }
 
 .btn-success {
@@ -2958,17 +2958,17 @@ textarea.form-control-lg {
 }
 
 .btn-outline-secondary {
-  --si-btn-color: red;
-  --si-btn-border-color: red;
+  --si-btn-color: #f5c19e;
+  --si-btn-border-color: #f5c19e;
   --si-btn-hover-color: #000;
-  --si-btn-hover-bg: red;
-  --si-btn-hover-border-color: red;
-  --si-btn-focus-shadow-rgb: 255, 0, 0;
+  --si-btn-hover-bg: #f5c19e;
+  --si-btn-hover-border-color: #f5c19e;
+  --si-btn-focus-shadow-rgb: 245, 193, 158;
   --si-btn-active-color: #000;
-  --si-btn-active-bg: red;
-  --si-btn-active-border-color: red;
+  --si-btn-active-bg: #f5c19e;
+  --si-btn-active-border-color: #f5c19e;
   --si-btn-active-shadow: unset;
-  --si-btn-disabled-color: red;
+  --si-btn-disabled-color: #f5c19e;
   --si-btn-disabled-bg: transparent;
   --si-gradient: none;
 }
@@ -4628,12 +4628,12 @@ textarea.form-control-lg {
 }
 
 .alert-secondary {
-  --si-alert-color: #e60000;
-  --si-alert-bg: #ffe6e6;
-  --si-alert-border-color: #ff8080;
+  --si-alert-color: #ddae8e;
+  --si-alert-bg: #fef9f5;
+  --si-alert-border-color: #fae0cf;
 }
 .alert-secondary .alert-link {
-  color: #b80000;
+  color: #b18b72;
 }
 
 .alert-success {
@@ -6115,7 +6115,7 @@ textarea.form-control-lg {
 
 .text-bg-secondary {
   color: #000 !important;
-  background-color: RGBA(255, 0, 0, var(--si-bg-opacity, 1)) !important;
+  background-color: RGBA(245, 193, 158, var(--si-bg-opacity, 1)) !important;
 }
 
 .text-bg-success {
@@ -6156,10 +6156,10 @@ textarea.form-control-lg {
 }
 
 .link-secondary {
-  color: red !important;
+  color: #f5c19e !important;
 }
 .link-secondary:hover, .link-secondary:focus {
-  color: #ff3333 !important;
+  color: #f7cdb1 !important;
 }
 
 .link-success {
@@ -7750,7 +7750,7 @@ textarea.form-control-lg {
 }
 
 .text-secondary {
-  color: red !important;
+  color: #f5c19e !important;
 }
 
 .text-success {
@@ -7855,6 +7855,10 @@ textarea.form-control-lg {
 .bg-dark {
   --si-bg-opacity: 1;
   background-color: #151515 !important;
+}
+.bg-green {
+  --si-bg-opacity: 1;
+  background-color: #0a4d41 !important;
 }
 
 .bg-black {
@@ -12278,10 +12282,10 @@ html:not([dir=rtl]) .range-slider-ui.noUi-horizontal .noUi-handle {
 .btn-secondary {
   --si-btn-hover-color: #fff;
   --si-btn-active-color: #fff;
-  --si-btn-hover-bg: #d90000;
-  --si-btn-active-bg: #d90000;
-  --si-btn-hover-border-color: #d90000;
-  --si-btn-active-border-color: #d90000;
+  --si-btn-hover-bg: #f1ab7b;
+  --si-btn-active-bg: #f1ab7b;
+  --si-btn-hover-border-color: #f1ab7b;
+  --si-btn-active-border-color: #f1ab7b;
   --si-btn-disabled-color: #fff;
 }
 
@@ -14025,7 +14029,7 @@ a.badge {
 }
 
 .alert-secondary {
-  --si-alert-bg: #ff0505;
+  --si-alert-bg: #f5c4a3;
 }
 
 .alert-secondary,
@@ -16002,8 +16006,8 @@ img-comparison-slider:focus {
   --si-alert-border-color: rgba(245, 193, 158, .25);
 }
 .dark-mode .alert-secondary {
-  --si-alert-bg: rgba(255, 0, 0, .05);
-  --si-alert-border-color: rgba(255, 0, 0, .25);
+  --si-alert-bg: rgba(245, 193, 158, .05);
+  --si-alert-border-color: rgba(245, 193, 158, .25);
 }
 .dark-mode .alert-success {
   --si-alert-bg: rgba(34, 197, 94, .05);
@@ -16149,4 +16153,12 @@ img-comparison-slider:focus {
   .display-1 {
     font-size: 8rem;
   }
+}
+.brand img {
+  width: 15%;
+  aspect-ratio: 3/2;
+  -o-object-fit: contain;
+  object-fit: contain;
+  mix-blend-mode: color-burn;
+  opacity: 0.1;
 }

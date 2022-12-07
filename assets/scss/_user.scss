@@ -16,3 +16,11 @@
       font-size: 8rem;
     }
   }
+
+  .brand img {
+    width: 70%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+    opacity: 0.3;
+  }
